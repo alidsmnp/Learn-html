@@ -1,0 +1,208 @@
+/* Reset default browser styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1f2937;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+#content {
+  margin: 20px auto;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  font-size: 2rem;
+  color: #1f2937;
+  margin-bottom: 10px;
+  border-left: 5px solid #4f46e5;
+  padding-left: 10px;
+}
+
+.section p,
+.section pre {
+  margin-bottom: 20px;
+}
+
+pre {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-left: 5px solid #4f46e5;
+  border-radius: 5px;
+  font-family: 'Courier New', monospace;
+  overflow-x: auto;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3b3be3;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #e0e0e0;
+  margin: 40px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: cyan;
+  color: black;
+  margin-top: 40px;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .section h2 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+  }
+
+  #content {
+    padding: 15px;
+  }
+}
+
+/* Background */
+body {
+  background: linear-gradient(135deg, #2a2a72, #009ffd);
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2, h3, p {
+  color: #000000;
+}
+
+/* Code Block Styling */
+pre, code {
+  background-color: #1d1d1d;
+  color: #50fa7b; /* Green neon style */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Button Styling */
+button {
+  background-color: #ff5722;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff784e;
+  box-shadow: 0 8px 16px rgba(255, 87, 34, 0.3);
+}
+
+/* Image Styling */
+img {
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+/* Footer Styling */
+footer {
+  background-color: cyan;
+  padding: 20px;
+  text-align: center;
+  color: #9735ae;
+  border-top: 1px solid #444;
+}
+
+/* Section Styling */
+.section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Header Styling */
+#main-header {
+  text-align: center;
+  padding: 40px;
+  background-color: #1f1f1f;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #444;
+  margin: 20px 0;
+  opacity: 0.5;
+}
+
+/* Gaya untuk menampilkan iklan dengan margin dan border */
+.adsbygoogle {
+    margin: 20px 0; /* Memberikan jarak vertikal di atas dan bawah iklan */
+    border: 1px solid #ccc; /* Garis batas di sekitar iklan (opsional) */
+    padding: 10px; /* Ruang dalam di sekitar iklan */
+    text-align: center; /* Menyelaraskan konten di dalam iklan */
+}
+
+/* Responsif untuk iklan */
+@media (max-width: 600px) {
+    .adsbygoogle {
+        margin: 10px 0; /* Mengurangi margin pada perangkat lebih kecil */
+    }
+}
